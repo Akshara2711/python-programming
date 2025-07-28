@@ -1,0 +1,11 @@
+x=lambda a,b,c:max(a,b,c)
+
+print(x(5,10,25))
+
+
+
+check_even = lambda x: "Even" if x % 2 == 0 else "Odd"
+
+
+num = int(input("Enter a number: "))
+print(f"The number {num} is {check_even(num)}.")
